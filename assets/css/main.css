@@ -58,6 +58,11 @@
 
 /* Containers */
 
+	.profile-picture {
+		border-radius: 50% !important;
+    	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	}
+
 	.container {
 		margin-left: auto;
 		margin-right: auto;
@@ -2242,27 +2247,27 @@
 		}
 
 		.icon.style1:before {
-			color: #c3e895;
+			color: #F06292;
 		}
 
 		.icon.style2:before {
-			color: #8addaa;
+			color: #F48FB1;
 		}
 
 		.icon.style3:before {
-			color: #6bd4c8;
+			color: #B39DDB;
 		}
 
 		.icon.style4:before {
-			color: #57aed3;
+			color: #9FA8DA;
 		}
 
 		.icon.style5:before {
-			color: #4a87d3;
+			color: #90CAF9;
 		}
 
 		.icon.style6:before {
-			color: #6b88e6;
+			color: #64B5F6;
 		}
 
 		.icon.major {
@@ -2710,7 +2715,7 @@
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-image: url("images/overlay1.png"), url("../../images/header2.jpg");
 			background-size: auto,							cover;
 		}
 
@@ -2801,8 +2806,7 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #E91E63 5%, #9C27B0 30%, #673AB7 );		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
 		position: relative;
@@ -2988,7 +2992,7 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #E91E63 5%, #9C27B0 30%, #673AB7 );		background-position: top left,						center center,					center center;
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
